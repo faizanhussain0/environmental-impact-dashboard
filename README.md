@@ -1,28 +1,45 @@
-# environmental-impact-dashboard
-Environmental impact analysis dashboard built using SQL and Tableau
-
-
 # Environmental Impact Dashboard
 
-This project analyzes environmental performance across regions and industries using a dataset of 50,000 records. The data was cleaned and prepared using SQL and then visualized in Tableau.
+This project analyzes environmental performance across different regions and industries using a dataset of 50,000 records. The data was prepared using SQL and visualized in Tableau to understand patterns in carbon emissions, water consumption, recycling rates, and compliance levels.
 
-## Tools Used
+Live Dashboard:
+https://public.tableau.com/app/profile/faizan.hussain8362/viz/environmentaldashboard/Dashboard1?publish=yes
+
+Tools Used:
 - SQL
 - Tableau
 - Excel
 
-## Project Work
-- Validated and cleaned environmental data
-- Calculated total carbon emissions, water consumption, and average recycling rate
+Project Overview
+
+The dataset includes metrics such as carbon emissions (kg), water consumption (liters), energy usage (kWh), waste generated, recycling rate (%), AQI, region, industry, product type, compliance level, and year.
+
+Using SQL, I:
+- Checked and validated the data
+- Removed invalid values
+- Calculated total carbon emissions and water consumption
+- Computed average recycling rate
 - Aggregated emissions and recycling metrics by region and industry
-- Built interactive Tableau dashboard with filters for year, region, industry, product type, and compliance level
 
-## Visualizations Included
-- KPI cards for key environmental metrics
-- Carbon emissions by region
-- Energy usage trend over years
-- Recycling rate heatmap (region vs industry)
-- Compliance level distribution
-- Scatter plot showing emissions vs recycling rate
+The cleaned data was then used to build an interactive Tableau dashboard with filters for year, region, industry, product type, and compliance level.
 
-The objective was to compare sustainability performance across sectors and identify areas needing improvement.
+Dashboard Screenshots
+
+Full Dashboard Overview
+![Dashboard](screenshots/dashboard_overview.png)
+
+Recycling Rate by Region and Industry (Heatmap)
+![Heatmap](screenshots/recycling_heatmap.png)
+
+Carbon Emissions vs Recycling Rate (Scatter Plot)
+![Scatter Plot](screenshots/emissions_vs_recycling.png)
+
+Energy Usage Trend Over Years (Line Chart)
+![Line Chart](screenshots/energy_trend.png)
+
+Repository Contents
+
+- environmental dashboard with recycling rate.twbx
+- Data Set environmental impact.xlsx
+- sql_queries.sql
+- screenshots folder
