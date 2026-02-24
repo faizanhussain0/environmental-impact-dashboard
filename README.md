@@ -31,11 +31,11 @@ Full Dashboard Overview
 Recycling Rate by Region and Industry (Heatmap)
 ![Heatmap](screenshots/recycling_heatmap.png)
 
-Carbon Emissions vs Recycling Rate (Scatter Plot)
-![Scatter Plot](screenshots/emissions_vs_recycling.png)
+Water Consumption vs Region (Bar Chart)
+![Scatter Plot](screenshots/waterconsVSregion_bar_chart.png)
 
 Energy Usage Trend Over Years (Line Chart)
-![Line Chart](screenshots/energy_trend.png)
+![Line Chart](screenshots/energyvsrecycling_rate_Linechart.png)
 
 Repository Contents
 
