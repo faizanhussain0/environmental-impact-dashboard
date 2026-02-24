@@ -35,7 +35,7 @@ Water Consumption vs Region (Bar Chart)
 ![Scatter Plot](screenshots/waterconsVSregion_bar_chart.png)
 
 Energy Usage Trend Over Years (Line Chart)
-![Line Chart](screenshots/energyvsrecycling_rate_Linechart.png)
+![Line Chart](screenshots/energyvsrecycling_rate_Line chart.png)
 
 Repository Contents
 
